@@ -5,7 +5,7 @@ https://algospot.com/judge/problem/read/QUADTREE
 # 구현 방법
 
 그림을 상하로 뒤집을 경우 항상 제 1사분면과 제 3사분면의 위치가 바뀌고 제 2사분면과 제 4사분면의 위치가 바뀐다는 것을 알면 재귀함수를 통해 간단하게 구현할 수 있다.
-  
+```  
   ex1) xbwxwbbwb 가 입력으로 들어오는 경우
   
   제 1사분면은 b, 제 2사분면은 w  
@@ -24,4 +24,4 @@ https://algospot.com/judge/problem/read/QUADTREE
   제 4사분면 -> b
   
   => xxwbxwwxbbwwbwbxwbwwxwwwxbbwb 가 된다.
-  
+```  
